@@ -43,6 +43,10 @@ The reference sections include:
 
 ## Notes
 
+### Licence
+
+The Human Markdown Reference is licensed under the [MIT licence](https://github.com/Aupajo/human-markdown-reference/blob/master/LICENCE) and is freely available for you to use or modify for any project.
+
 ### Size
 
 It's extremely lightweight; one HTML file, one minified CSS file, two images. If your web server has GZip compression switched on it should total 2.3KB.
