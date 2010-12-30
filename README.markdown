@@ -6,6 +6,31 @@ The Human Markdown Reference is a set of short, easy to understand HTML pages yo
 
 It's perfect for including as a pop-up help window next to your textarea.
 
+See also: the Human Textile Reference.
+
+## How To Use
+
+Clone the repository or [download](http://github.com/Aupajo/human-markdown-reference/downloads).
+
+Copy the `markdown-reference/` directory to your project.
+
+Add a help link to the reference:
+
+### HTML Snippet
+
+
+    You can format your text using
+    <a href="markdown-reference/index.html"
+       onclick="window.open(this.href,'markdown_reference','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
+    </code>
+
+
+### Rails Snippet
+
+    You can format your text using
+    <%= link_to 'Markdown', 'markdown-reference/index.html', :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
+
+
 ## Reference Sections
 
 The reference sections include:
@@ -36,24 +61,3 @@ Included stylesheet is compiled using [Sass](http://sass-lang.com/). If you want
 
 If you're developing, you can use Sass' `--watch` option.
 
-## How To Use
-
-Clone the repository or [download](http://github.com/Aupajo/human-markdown-reference/downloads).
-
-Copy the `markdown-reference/` directory to your project.
-
-Add a help link to the reference:
-
-### HTML Snippet
-
-
-    You can format your text using
-    <a href="markdown-reference/index.html"
-       onclick="window.open(this.href,'markdown_reference','height=400,width=600,scrollbars=1'); return false;">Markdown</a>.
-    </code>
-
-
-### Rails Snippet
-
-    You can format your text using
-    <%= link_to 'Markdown', 'markdown-reference/index.html', :popup => ['markdown_reference', 'height=400,width=600,scrollbars=1'] %>
