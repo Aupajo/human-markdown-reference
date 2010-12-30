@@ -10,7 +10,7 @@ See also: the Human Textile Reference.
 
 ## How To Use
 
-Clone the repository or [download](http://github.com/Aupajo/human-markdown-reference/downloads).
+[Download](http://github.com/Aupajo/human-markdown-reference/downloads) or clone this repository.
 
 Copy the `markdown-reference/` directory to your project.
 
