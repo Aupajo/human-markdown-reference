@@ -4,6 +4,8 @@ The Human Markdown Reference is a set of short, easy to understand HTML pages yo
 
 **Important:** This is not designed to be a complete reference. Just a quick guide for the layman.
 
+You can [view a live demo](http://labs.metanation.com/human-markdown-reference/).
+
 It's perfect for including as a pop-up help window next to your textarea.
 
 The author of this reference recommends using Markdown over Textile as it's easier to learn and better suited to normal writing.
