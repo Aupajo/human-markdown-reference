@@ -6,6 +6,8 @@ The Human Markdown Reference is a set of short, easy to understand HTML pages yo
 
 It's perfect for including as a pop-up help window next to your textarea.
 
+The author of this reference recommends using Markdown over Textile as it's easier to learn and better suited to normal writing.
+
 See also: the [Human Textile Reference](http://github.com/Aupajo/human-textile-reference).
 
 ## How To Use
